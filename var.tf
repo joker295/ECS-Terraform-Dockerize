@@ -1,19 +1,3 @@
-variable "access_key" {
-
-    type      = string
-    default   = ""
-    sensitive = true
-}
-
-variable "secret_keyaccess_key" {
-
-    type      = string
-    default   = ""
-    sensitive = true
-  
-}
-
-
 variable "vpc_cidr" {
   
 }
